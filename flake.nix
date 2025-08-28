@@ -49,11 +49,11 @@
       };
 
       unstable_typstPackages = [
-        {
-          name = "clickworthy-resume";
-          version = "1.0.1";
-          hash = "sha256-I99QUHHDrwZLzG9Q1P32UzImp14ZhuyhgrdRBVBOSdE=";
-        }
+        # {
+        #   name = "clickworthy-resume";
+        #   version = "1.0.1";
+        #   hash = "sha256-I99QUHHDrwZLzG9Q1P32UzImp14ZhuyhgrdRBVBOSdE=";
+        # }
       ];
 
       # Compile a Typst project, *without* copying the result
