@@ -1,21 +1,5 @@
 #import "./src/lib.typ": *
 
-// Personal Information
-#let name = "Jordan Michaels"
-#let email = "jordan.michaels@example.com"
-#let github = "github.com/jordan-devhub"
-#let linkedin = "linkedin.com/in/jordan-michaels"
-#let contacts = (
-  [#link("mailto:" + email)[#email]],
-  [#link("https://" + github)[#github]],
-  [#link("https://" + linkedin)[#linkedin]],
-)
-#let location = ""
-
-// Professional Summary
-#let summary = ""
-
-// Resume configuration
 #let theme = rgb("#26428b")
 #let font = "New Computer Modern"
 #let fontSize = 11pt
@@ -27,12 +11,18 @@
   right: 1cm,
 )
 
-// Resume Header and configuration
+#let email = "plcasimiro2000@gmail.com"
+#let github = "github.com/p-laranjinha"
+#let linkedin = "linkedin.com/in/p-laranjinha"
 #show: resume.with(
-  author: name,
-  location: location,
-  contacts: contacts,
-  summary: summary,
+  author: "Pedro Laranjinha Casimiro",
+  location: "Chamusca, Santarém, Portugal",
+  contacts: (
+    [#link("mailto:" + email)[#email]],
+    [#link("https://" + github)[#github]],
+    [#link("https://" + linkedin)[#linkedin]],
+  ),
+  summary: "",
   theme-color: theme,
   font: font,
   font-size: fontSize,
@@ -40,169 +30,131 @@
   margin: margin,
 )
 
-// Education
-= Education
-#edu(
-  institution: "Carnegie Mellon University",
-  date: "Sep 2023 - Jun 2025",
-  location: "Pittsburgh, PA",
-  degrees: (
-    ("M.S.", "Computer Systems"),
-  ),
-  gpa: "3.81",
-  extra: "",
-)
+I’m a junior developer that graduated from uni with a decent understanding of many facets of software development. I’ve
+currently been interested in using web full-stack to create useful tools, but I’m looking forward to trying new things as to
+better figure out my preferred field.
 
-#edu(
-  institution: "University of Texas at Austin",
-  date: "Aug 2018 - May 2023",
-  location: "Austin, TX",
-  degrees: (
-    ("B.S.", "Software Engineering"),
-    ("Minor", "Cognitive Science"),
-  ),
-  gpa: "3.97",
-  extra: "",
-)
+I’m from Portugal so my first language is Portuguese, but I use so much English on my day-to-day life that I’d say I’m better
+at it. I also got a B2 English certification in high school.
 
-// Experience
 = Experience
 #exp(
-  title: "Platform Engineering Intern",
-  organization: "Bitstream Networks",
-  date: "May 2024 - Aug 2024",
-  location: "Denver, CO",
+  title: "Intern",
+  organization: link("https://www.wit-software.com/")[WIT Software],
+  date: "Sep 2022 - Jul 2023",
+  location: "Aveiro, Portugal",
   details: [
-    - Designed and deployed a real-time telemetry pipeline for edge network routers using Go and Protobuf.
-    - Developed high-throughput sync agents across distributed nodes using gRPC and Redis streams.
-    - Created Verilog modules to validate MAC-level packet timings on custom FPGA NICs for load testing.
+    - Internship for my Master's Degree's dissertation.
+    - The objective was to figure out how to make an already existing React Native application run well on Tizen Smart TV devices with minimal additional work.
+    - During the intership multiple prototypes with multiple JavaScript frameworks and an automated way to test these were created.
   ]
 )
 
-#exp(
-  title: "Firmware Intern",
-  organization: "Atlas Devices",
-  date: "Jun 2023 - Sep 2023",
-  location: "Boston, MA",
-  details: [
-    - Implemented drivers and diagnostics for a custom USB audio subsystem on a Cortex-M7 platform.
-    - Built Python automation scripts for multidevice firmware upgrade pipelines and JTAG verification.
-    - Validated board-level signal integrity with oscilloscope captures and SPI timing analyzers.
-  ]
+= Education
+#edu(
+  institution: "University of Aveiro",
+  date: "Sep 2018 - Sep 2021",
+  location: "",
+  degree: "M.S. in Informatics Engineering",
+  grade: "16",
+)
+#edu(
+  institution: "University of Aveiro",
+  date: "Sep 2021 - Sep 2023",
+  location: "",
+  degree: "B.S. in Informatics Engineering",
+  grade: "17",
 )
 
-#exp(
-  title: "Undergraduate Lab Assistant",
-  organization: "University of Texas at Austin",
-  date: "Aug 2021 - Dec 2022",
-  location: "Austin, TX",
-  details: [
-    - Assisted with instructional support for algorithms, data structures, and discrete math courses.
-    - Led peer tutoring sessions and created practice exams for midterm review.
-  ],
-  hide: true
-)
-
-// Projects
-= Projects
-#exp(
-  title: link("https://github.com/jordan-devhub/lunar-nav-bot")[Lunar Navigation Bot (Autonomous Systems)],
-  details: [
-    - Simulated and field-tested a planetary rover using Jetson Nano, LiDAR, and YOLOv6 for rock classification.
-    - Used MQTT to coordinate movement commands with a relay station over intermittent mesh networks.
-    - Placed among top finalists in the #link("https://www.hackster.io/entries/space-bots-2023")[*SpaceBot 2023 Challenge*].
-  ]
-)
-
-#exp(
-  title: link("https://github.com/jordan-devhub/speechsync")[SpeechSync Streamer (Real-Time Communication)],
-  details: [
-    - Created a voice chat system with on-the-fly transcription and translation via Whisper + MarianMT.
-  ]
-)
-
-#exp(
-  title: link("https://github.com/jordan-devhub/audio-amp-kit")[Portable Audio Amplifier Kit (Hardware Design)],
-  details: [
-    - Designed a 7W audio amplifier with integrated thermal shutdown and overcurrent protection.
-  ],
-)
-
-// Awards
-= Awards
-#exp(
-  title: "SpaceBot 2023 Finalist",
-  details: [
-    - Received for the #link("https://github.com/jordan-devhub/lunar-nav-bot")[Lunar Navigation Bot] project among 200+ submissions.
-  ]
-)
-
-// Publications
-// This template uses the `pub` function twice to display two publication entries.
-// The `pub-list` function is more advanced and could be used instead to display a list of publications from a `.bib` or `.yml` file.
-= Publications
-#pub(
-  authors: (
-    "Taylor Chen",
-    "Jordan Michaels",
-    "Emily Zhang",
-  ),
-  bold-author: "Jordan Michaels",
-  title: "Lightweight Neural Pruning for Speech Tasks on Low-Power Devices",
-  venue: "ACM UbiComp",
-  year: "2024",
-  doi-link: "doi.org/10.48550/arXiv.2404.00987",
-)
-
-#pub(
-  authors: (
-    "Jordan Michaels",
-    "Alice Smith",
-  ),
-  bold-author: "Jordan Michaels",
-  title: "Optimizing Edge AI Workflows for Low-Latency Inference",
-  venue: "IEEE Edge Computing",
-  year: "2023",
-  doi-link: "doi.org/10.1109/EDGECOMP.2023.1234567",
-  extra: "Best Paper Award",
-)
-
-// Skills
 = Skills
 #skills((
   ("Expertise", (
-    [Edge Computing],
-    [Network Protocols],
-    [Robotics Systems],
-    [FPGA Toolchains],
-    [Embedded Audio],
-    [Multilingual NLP],
-    [System Monitoring],
-    [CI/CD Automation],
+    [Agile Development],
+    [Android Development],
+    [Artificial Intelligence],
+    [CI/CD Pipelines],
+    [Concurrent Programming],
+    [Data Structures & Algorithms],
+    [Database Systems (SQL & NoSQL)],
+    [Distributed Systems],
+    [Containers],
+    [Software Security],
+    [Software Testing],
+    [Web Development],
   )),
-  ("Software", (
-    [PyTorch],
-    [TensorFlow Lite],
-    [OpenCV],
-    [KiCad],
+  ("Programming Languages",(
+    [JavaScript],
+    [HTML/CSS],
+    [Python],
+    [Bash],
+    [Java],
+    [C],
+    [C\#],
+    [Dart],
+    [SQL],
+    [XPath],
+  )),
+  ("Developer Tools",(
+    [VS Code],
+    [Neovim],
+    [Visual Studio],
+    [Jetbrains IDEs],
+    [Android Studio],
+  )),
+  ("Frameworks",(
+    [React],
+    [Expo],
+    [SolidJS],
+    [LightningJS],
+    [Angular],
+    [Django],
+    [Java Spring],
+    [Flutter],
+  )),
+  ("Others",(
+    [Userscripts],
+    [web-vitals],
+    [Puppeteer],
+    [Tizen],
+    [Linux],
+    [Git],
+    [Java Swing],
     [Docker],
     [Kubernetes],
-    [Zephyr RTOS],
-    [Vivado],
-    [gRPC],
-    [Git],
-    [JIRA],
-    [WireShark],
-    [Linux],
+    [Android],
+    [Selenium],
+    [LaTeX],
+    [JUnit],
   )),
-  ("Languages", (
-    [Python],
-    [C/C++],
-    [Rust],
-    [Bash],
-    [MATLAB],
-    [VHDL],
-    [Verilog],
-    [TypeScript],
-  )),
+  // ("Software", (
+  //   [],
+  // )),
 ))
+
+= Projects
+#exp(
+  title: link("https://github.com/p-laranjinha/userscripts")[Userscripts],
+  details: [
+    - A collection of scripts that run on the browser to add functionality to websites.
+    - This collection was created and is still being worked on, to fix some pet peeves on various websites I use.
+  ]
+)
+
+#exp(
+  title: link("https://github.com/Dioben/PI18")[Bachelor’s Final Project: Neural Net Tracker],
+  details: [
+    - A periodic parameter collection platform that deploys neural networks in a containerized environment.
+    - Users can configure and launch neural networks and observe their training through a visualization interface capable of showing and comparing the evolution of the collected parameters in a variety of relevant graphs.
+    - I handled the Django frontend server, including everything from the interaction with the other components of the project to the design and development of the frontend.
+  ]
+)
+
+#exp(
+  title: link("https://github.com/Dioben/TQSPROJECT")[QA Project: Food Delivery Website],
+  details: [
+    - Development of a Food Delivery System API as well as a storefront that uses said API.
+    - The focus of this project was on quality assurance, Unit and Integration tests, CI/CD, and good team practices.
+    - We used automatic Docker builds and Watchtower to continuously deploy to a test environment, Git actions for automated testing, and SonarCloud for code quality analysis, while following an Agile methodology.
+  ],
+)
+

@@ -58,17 +58,17 @@ https://github.com/typst/packages/blob/2da94b0f21174ae8366834332a6e44fd966de4dd/
     #block(text(weight: 700, 2.5em, [#smallcaps(author)]))
   ]
 
-  // Contact Information
-  align(center)[
-    #[#contacts.join("  |  ")]
-  ]
-
   // Location
   if location != "" {
     align(center)[
       #smallcaps[#location]
     ]
   }
+
+  // Contact Information
+  align(center)[
+    #[#contacts.join("  |  ")]
+  ]
 
   // Professional summary
   if summary != "" {
@@ -95,10 +95,9 @@ Education section formatting, allowing enumeration of degrees and GPA.
 #let edu(
   institution: "",
   date: "",
-  degrees: (),
-  gpa: "",
+  degree: "",
+  grade: "",
   location: "",
-  extra: "",
   hide: false,
   
 ) = {
@@ -110,23 +109,14 @@ Education section formatting, allowing enumeration of degrees and GPA.
     grid(
       columns: (auto, 1fr),
       align(left)[
-        #strong[#institution]
+        #strong[#degree]
         #{
-          if gpa != "" [
-            | #emph[GPA: #gpa]
+          if grade != "" [
+            | #emph[#grade/20 Grade]
           ]
         }
-        \ 
-        #{
-          for degree in degrees [
-            #strong[#degree.at(0)] | #emph[#degree.at(1)] \
-          ]
-        }
-        #{
-          if extra != "" [
-            #emph[#strong[#extra]]
-          ]
-        }
+        \
+        #emph[#institution]
       ],
       align(right)[
         #emph[#date]
