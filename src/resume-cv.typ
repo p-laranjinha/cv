@@ -148,6 +148,22 @@ a single list.
   }
 }
 
+#let bullet_skills(skills) = {
+  let skills = skills.map(skill => text(hyphenate: false)[- #skill])
+  let count = 0
+  columns(
+    4,
+    for skill in skills {
+      skill
+      count = count + 1
+      if count == 4 {
+        colbreak()
+        count = 0
+      }
+    }
+)
+}
+
 /*
 Experience section formatting logic.
 `hide` flag to allow for hiding individual Experience entries.

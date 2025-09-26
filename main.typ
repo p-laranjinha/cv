@@ -30,11 +30,10 @@
   margin: margin,
 )
 
-// Software engineer with 6+ years of experience.
-//
-// I’m a junior developer that graduated from uni with a decent understanding of many facets of software development. I’ve
-// currently been interested in using web full-stack to create useful tools, but I’m looking forward to trying new things as to
-// better figure out my preferred field.
+= About me
+Software engineer with 6+ years of experience in backend, frontend, testing, developer tooling, pipelines and infrastructure as code.
+Passionate about all programming related parts involved in creating a useful or interesting product, including backend, frontend, testing, and others.
+Most experienced with Typescript and Python but also interested in doing either Go, Zig or C\# professionally.
 
 = Experience
 #exp(
@@ -57,13 +56,31 @@
   location: "Aveiro, Portugal",
   details: [
     - Internship for my Master's Degree's dissertation.
-    - Created multiple prototypes similar to the Vodafone TV video streaming application in multiple web frontend frameworks to run on Smart TV's with the Tizen operating system (Samsung TVs).
+    - Created multiple prototypes resembling the Vodafone TV video streaming application in multiple web frontend frameworks to run on Smart TV's with the Tizen operating system (Samsung TVs).
     - Developed a Puppeteer script that connects to the Smart TV and automatically tests and collects metrics on all web frontends used.
-    - Analysed the metrics obtained in order to figure out the easiest method to migrate an existing React Native application onto Smart TV devices and still have the application be performant.
+    - Analysed the metrics obtained in order to figure out the easiest method to migrate an existing React Native application onto Smart TV devices while having the application be performant.
   ]
 )
 
 = Skills
+
+// #bullet_skills((
+//     [Agile Development],
+//     [CI/CD Pipelines],
+//     [Database Systems (SQL & NoSQL)],
+//     [Software Security],
+//     [API Development],
+//     [Concurrent Programming],
+//     [Distributed Systems],
+//     [Software Testing],
+//     [Android Development],
+//     [Containerization],
+//     [Infrastructure as Code],
+//     [Web Development],
+//     [Chaos Engineering],
+//     [Data Structures & Algorithms],
+//     [Software Design Patterns],
+// ))
 #skills((
   ("Expertise", (
     [Agile Development],
