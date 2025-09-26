@@ -39,7 +39,7 @@ Most experienced with Typescript and Python but also interested in doing either 
 #exp(
   title: "Software Developer - API Mocking with Chaos Engineering",
   organization: link("https://mc.sonae.pt")[Sonae MC],
-  date: "Sep 2022 - Jul 2023",
+  date: "Sep 2024 - May 2025",
   location: "Aveiro, Portugal",
   details: [
     - Developed an internal Mockoon fork that exposes a runtime interface to specify and add latency and chaos to API mocks for facilitating future improvements in software resilience.
