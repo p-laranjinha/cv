@@ -97,6 +97,7 @@ Education section formatting, allowing enumeration of degrees and GPA.
   date: "",
   degree: "",
   grade: "",
+  certificate_link: "",
   location: "",
   hide: false,
   
@@ -111,9 +112,14 @@ Education section formatting, allowing enumeration of degrees and GPA.
       align(left)[
         #strong[#degree]
         #{
-          if grade != "" [
+          if grade != "" {
+            if certificate_link != "" [
+            | #link(certificate_link)[#emph[#grade/20 Grade]]
+            ]
+            else [
             | #emph[#grade/20 Grade]
-          ]
+            ]
+          }
         }
         \
         #emph[#institution]

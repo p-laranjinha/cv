@@ -30,131 +30,144 @@
   margin: margin,
 )
 
-I’m a junior developer that graduated from uni with a decent understanding of many facets of software development. I’ve
-currently been interested in using web full-stack to create useful tools, but I’m looking forward to trying new things as to
-better figure out my preferred field.
-
-I’m from Portugal so my first language is Portuguese, but I use so much English on my day-to-day life that I’d say I’m better
-at it. I also got a B2 English certification in high school.
+// Software engineer with 6+ years of experience.
+//
+// I’m a junior developer that graduated from uni with a decent understanding of many facets of software development. I’ve
+// currently been interested in using web full-stack to create useful tools, but I’m looking forward to trying new things as to
+// better figure out my preferred field.
 
 = Experience
 #exp(
-  title: "Intern",
-  organization: link("https://www.wit-software.com/")[WIT Software],
+  title: "Software Developer - API Mocking with Chaos Engineering",
+  organization: link("https://mc.sonae.pt")[Sonae MC],
+  date: "Sep 2022 - Jul 2023",
+  location: "Aveiro, Portugal",
+  details: [
+    - Developed an internal Mockoon fork that exposes a runtime interface to specify and add latency and chaos to API mocks for facilitating future improvements in software resilience.
+    - Created a GitHub repository workflow that automatically verifies and deploys mocks to Microsoft Azure.
+    - Created a GitHub organization with a certain structure and workflows in place to facilitate the creation of repositories with the above workflow for any amount of teams.
+    - Created documentation and lead presentations on the relevance of mocks and chaos engineering, as well as how to use Mockoon and the repositories and organization I created to all of the company's development and QA teams.
+    - Additionally worked on maintenance tasks for .NET and Typescript projects.
+  ]
+)
+#exp(
+  title: "Software Developer",
+  organization: link("https://www.wit-software.com")[WIT Software],
   date: "Sep 2022 - Jul 2023",
   location: "Aveiro, Portugal",
   details: [
     - Internship for my Master's Degree's dissertation.
-    - The objective was to figure out how to make an already existing React Native application run well on Tizen Smart TV devices with minimal additional work.
-    - During the intership multiple prototypes with multiple JavaScript frameworks and an automated way to test these were created.
+    - Created multiple prototypes similar to the Vodafone TV video streaming application in multiple web frontend frameworks to run on Smart TV's with the Tizen operating system (Samsung TVs).
+    - Developed a Puppeteer script that connects to the Smart TV and automatically tests and collects metrics on all web frontends used.
+    - Analysed the metrics obtained in order to figure out the easiest method to migrate an existing React Native application onto Smart TV devices and still have the application be performant.
   ]
-)
-
-= Education
-#edu(
-  institution: "University of Aveiro",
-  date: "Sep 2018 - Sep 2021",
-  location: "",
-  degree: "M.S. in Informatics Engineering",
-  grade: "16",
-)
-#edu(
-  institution: "University of Aveiro",
-  date: "Sep 2021 - Sep 2023",
-  location: "",
-  degree: "B.S. in Informatics Engineering",
-  grade: "17",
 )
 
 = Skills
 #skills((
   ("Expertise", (
     [Agile Development],
+    [API Development],
     [Android Development],
-    [Artificial Intelligence],
+    [Chaos Engineering],
     [CI/CD Pipelines],
     [Concurrent Programming],
+    [Containerization],
     [Data Structures & Algorithms],
     [Database Systems (SQL & NoSQL)],
     [Distributed Systems],
-    [Containers],
+    [Infrastructure as Code],
+    [Software Design Patterns],
     [Software Security],
     [Software Testing],
     [Web Development],
   )),
   ("Programming Languages",(
-    [JavaScript],
-    [HTML/CSS],
-    [Python],
     [Bash],
-    [Java],
-    [C],
     [C\#],
+    [C],
     [Dart],
+    [HTML/CSS],
+    [JavaScript],
+    [Java],
+    [Nix],
+    [PowerShell],
+    [Python],
     [SQL],
-    [XPath],
+    [TypeScript],
   )),
-  ("Developer Tools",(
-    [VS Code],
-    [Neovim],
-    [Visual Studio],
-    [Jetbrains IDEs],
-    [Android Studio],
-  )),
-  ("Frameworks",(
-    [React],
-    [Expo],
-    [SolidJS],
-    [LightningJS],
-    [Angular],
+  ("Technologies/Frameworks",(
+    [Cuda C],
     [Django],
-    [Java Spring],
+    [Docker/Podman],
+    [Expo],
     [Flutter],
-  )),
-  ("Others",(
+    [Git],
+    [Java Spring],
+    [Kubernetes],
+    [LightningJS],
+    [Linux],
+    [Microsoft Azure],
+    [Mockoon],
+    [.NET],
+    [NixOS],
+    [NodeJS],
+    [Puppeteer],
+    [React],
+    [Selenium],
+    [SolidJS],
+    [Tizen],
     [Userscripts],
     [web-vitals],
-    [Puppeteer],
-    [Tizen],
-    [Linux],
-    [Git],
-    [Java Swing],
-    [Docker],
-    [Kubernetes],
-    [Android],
-    [Selenium],
-    [LaTeX],
-    [JUnit],
   )),
-  // ("Software", (
-  //   [],
-  // )),
+  ("Languages",(
+    [Portuguese (native)],
+    [English (proficient, obtained B2 certification in highschool)],
+  )),
 ))
 
-= Projects
-#exp(
-  title: link("https://github.com/p-laranjinha/userscripts")[Userscripts],
-  details: [
-    - A collection of scripts that run on the browser to add functionality to websites.
-    - This collection was created and is still being worked on, to fix some pet peeves on various websites I use.
-  ]
-)
+// = Projects
+// #exp(
+//   title: link("https://github.com/p-laranjinha/userscripts")[Userscripts],
+//   details: [
+//     - A collection of scripts that run on the browser to add functionality to websites.
+//     - This collection was created and is still being worked on, to fix some pet peeves on various websites I use.
+//   ]
+// )
+//
+// #exp(
+//   title: link("https://github.com/Dioben/PI18")[Bachelor’s Final Project: Neural Net Tracker],
+//   details: [
+//     - A periodic parameter collection platform that deploys neural networks in a containerized environment.
+//     - Users can configure and launch neural networks and observe their training through a visualization interface capable of showing and comparing the evolution of the collected parameters in a variety of relevant graphs.
+//     - I handled the Django frontend server, including everything from the interaction with the other components of the project to the design and development of the frontend.
+//   ]
+// )
+//
+// #exp(
+//   title: link("https://github.com/Dioben/TQSPROJECT")[QA Project: Food Delivery Website],
+//   details: [
+//     - Development of a Food Delivery System API as well as a storefront that uses said API.
+//     - The focus of this project was on quality assurance, Unit and Integration tests, CI/CD, and good team practices.
+//     - We used automatic Docker builds and Watchtower to continuously deploy to a test environment, Git actions for automated testing, and SonarCloud for code quality analysis, while following an Agile methodology.
+//   ],
+// )
 
-#exp(
-  title: link("https://github.com/Dioben/PI18")[Bachelor’s Final Project: Neural Net Tracker],
-  details: [
-    - A periodic parameter collection platform that deploys neural networks in a containerized environment.
-    - Users can configure and launch neural networks and observe their training through a visualization interface capable of showing and comparing the evolution of the collected parameters in a variety of relevant graphs.
-    - I handled the Django frontend server, including everything from the interaction with the other components of the project to the design and development of the frontend.
-  ]
-)
 
-#exp(
-  title: link("https://github.com/Dioben/TQSPROJECT")[QA Project: Food Delivery Website],
-  details: [
-    - Development of a Food Delivery System API as well as a storefront that uses said API.
-    - The focus of this project was on quality assurance, Unit and Integration tests, CI/CD, and good team practices.
-    - We used automatic Docker builds and Watchtower to continuously deploy to a test environment, Git actions for automated testing, and SonarCloud for code quality analysis, while following an Agile methodology.
-  ],
+= Education
+#edu(
+  institution: "University of Aveiro",
+  date: "Sep 2021 - Sep 2023",
+  location: "",
+  degree: "Master's Degree in Informatics Engineering",
+  grade: "17",
+  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/masters-certificate.pdf",
 )
-
+#edu(
+  institution: "University of Aveiro",
+  date: "Sep 2018 - Sep 2021",
+  location: "",
+  degree: "Bachelor's Degree in Informatics Engineering",
+  grade: "17",
+  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/bachelors-certificate.pdf",
+)
