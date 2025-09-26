@@ -182,7 +182,7 @@ Most experienced with Typescript and Python but also interested in doing either 
 )
 #edu(
   institution: "University of Aveiro",
-  date: "Sep 2018 - Sep 2021",
+  date: "Sep 2018 - Jul 2021",
   location: "",
   degree: "Bachelor's Degree in Informatics Engineering",
   grade: "17",
