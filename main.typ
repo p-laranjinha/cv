@@ -46,7 +46,7 @@ Most experienced with Typescript and Python but also interested in doing either 
     - Created a GitHub repository workflow that automatically verifies and deploys mocks to Microsoft Azure.
     - Created a GitHub organization with a certain structure and workflows in place to facilitate the creation of repositories with the above workflow for any amount of teams.
     - Created documentation and lead presentations on the relevance of mocks and chaos engineering, as well as how to use Mockoon and the repositories and organization I created to all of the company's development and QA teams.
-    - Additionally worked on maintenance tasks for .NET and Typescript projects.
+    - Additionally worked on maintenance tasks for ASP.NET and Typescript projects.
   ]
 )
 #exp(
@@ -126,7 +126,7 @@ Most experienced with Typescript and Python but also interested in doing either 
     [Linux],
     [Microsoft Azure],
     [Mockoon],
-    [.NET],
+    [ASP.NET],
     [NixOS],
     [NodeJS],
     [Puppeteer],
