@@ -37,10 +37,10 @@ Most experienced with Typescript and Python but also interested in doing either 
 
 = Experience
 #exp(
-  title: "Software Developer - API Mocking with Chaos Engineering",
+  title: "Software Developer",
   organization: link("https://mc.sonae.pt")[Sonae MC],
   date: "Sep 2024 - May 2025",
-  location: "Aveiro, Portugal",
+  location: "Porto, Portugal",
   details: [
     - Developed an internal Mockoon fork that exposes a runtime interface to specify and add latency and chaos to API mocks for facilitating future improvements in software resilience.
     - Created a GitHub repository workflow that automatically verifies and deploys mocks to Microsoft Azure.
@@ -53,7 +53,7 @@ Most experienced with Typescript and Python but also interested in doing either 
   title: "Software Developer",
   organization: link("https://www.wit-software.com")[WIT Software],
   date: "Sep 2022 - Jul 2023",
-  location: "Aveiro, Portugal",
+  location: "Coimbra, Portugal",
   details: [
     - Internship for my Master's Degree's dissertation.
     - Created multiple prototypes resembling the Vodafone TV video streaming application in multiple web frontend frameworks to run on Smart TV's with the Tizen operating system (Samsung TVs).
