@@ -161,7 +161,7 @@
   location: "",
   degree: "Master's Degree in Informatics Engineering",
   grade: "17",
-  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/masters-certificate.pdf",
+  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/p-laranjinha-masters-certificate.pdf",
 )
 #edu(
   institution: "University of Aveiro",
@@ -169,5 +169,5 @@
   location: "",
   degree: "Bachelor's Degree in Informatics Engineering",
   grade: "17",
-  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/bachelors-certificate.pdf",
+  certificate_link: "https://raw.githubusercontent.com/p-laranjinha/cv/refs/heads/master/assets/p-laranjinha-bachelors-certificate.pdf",
 )
