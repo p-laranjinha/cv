@@ -82,7 +82,7 @@ Most experienced with Typescript and Python but also interested in doing either 
 //     [Software Design Patterns],
 // ))
 #skills((
-  ("Expertise", (
+  ("Industry Knowledge", (
     [Agile Development],
     [API Development],
     [Android Development],
