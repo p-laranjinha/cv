@@ -32,7 +32,7 @@
 )
 
 = About me
-Software engineer with 6+ years of experience in the field, which includes backend, frontend, testing, developer tooling, pipelines, infrastructure as code, and other aspects.
+Software engineer with some experience in the field, which includes backend, frontend, testing, developer tooling, pipelines, infrastructure as code, and other aspects.
 Passionate about solving problems in useful and interesting ways.
 I enjoy most aspects of the field but prefer the parts that more directly interact with the end product via programming.
 Most experienced with Typescript and Python but also interested in learning and using Go, Zig or C\# professionally.
@@ -46,7 +46,7 @@ Most experienced with Typescript and Python but also interested in learning and 
   details: [
     - Developed an internal Mockoon fork that exposes a runtime interface to specify and add latency and chaos to API mocks for facilitating future improvements in software resilience.
     - Created a GitHub repository workflow that automatically verifies and deploys mocks to Microsoft Azure.
-    - Established a GitHub organization with workflows in place and structured to facilitate the creation of repositories with the above workflow for any amount of teams.
+    - Established a GitHub organization with workflows in place and structured to facilitate the creation of repositories with the above workflow for any number of teams.
     - Created documentation and lead presentations on the relevance of mocks and chaos engineering, as well as how to use Mockoon and the repositories and organization I created to all of the company's development and QA teams.
     - Additionally worked on maintenance tasks for ASP.NET and Typescript projects.
   ]
@@ -60,7 +60,7 @@ Most experienced with Typescript and Python but also interested in learning and 
     - Internship for my Master's Degree's dissertation.
     - Created multiple prototypes resembling the Vodafone TV video streaming application in multiple web frontend frameworks to run on Smart TV's with the Tizen operating system (Samsung TVs).
     - Developed a Puppeteer script that connects to the Smart TV and automatically tests and collects metrics on all web frontends used.
-    - Analyzed the metrics obtained in order to figure out the easiest method to migrate an existing React Native application onto Smart TV devices while having the application be performant.
+    - Analyzed the metrics obtained to figure out the easiest method to migrate an existing React Native application onto Smart TV devices while having the application be performant.
   ]
 )
 
